@@ -1,3 +1,9 @@
+body{
+  background-color:#fdf3fd;
+}
+.bg-pink{
+  background-color:#fdf3fd;
+}
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -14,6 +20,11 @@
 .bg-enji {
   background-color: #b7193f;
 }
+/* header{
+  position: fixed;
+  width: 100%;
+  z-index:10;
+} */
 header .text-muted {
   color: #ffffff !important;
 }
@@ -22,13 +33,21 @@ header img {
 }
 
 section {
-  background-image: url(sakura2.jpg);
+  background-image: url(image/sakura2.jpg);
   background-size: cover;
   background-position: bottom center;
+  width: 600px;
+  height: 480px;
+  
 }
-
+.section-heading{
+  padding-bottom:25px;
+}
+.row{
+  height:auto;
+}
 .col-lg-6 {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
   color: #ffffff;
 }
 footer .sns {
