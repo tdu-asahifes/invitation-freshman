@@ -55,3 +55,7 @@ footer .sns {
 .btn-info {
   color: white;
 }
+.btn a {
+  text-decoration: none;
+  color: white;
+}
