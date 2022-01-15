@@ -1,8 +1,11 @@
 body{
-  background-color:#fde3fd;
+  background-color:#FDEFF5;
+}
+main{
+  padding:67px;
 }
 .bg-pink{
-  background-color:#fde3fd;
+  background-color:#FDEFF5;
 }
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -18,13 +21,14 @@ body{
   }
 }
 .bg-enji {
-  background-color: #b7193f;
+  background-color: #EB6EA5;
 }
-/* header{
+header{
   position: fixed;
   width: 100%;
   z-index:10;
-} */
+
+} 
 header .text-muted {
   color: #ffffff !important;
 }
@@ -38,7 +42,6 @@ section {
   background-position: bottom center;
   width: 600px;
   height: 480px;
-  
 }
 .section-heading{
   padding-bottom:25px;
@@ -49,7 +52,12 @@ section {
 .col-lg-6 {
   background-color: rgba(0, 0, 0, 0.3);
   color: #ffffff;
+  border-radius: 10px;
+  padding-top:10px;
+  display:none;
 }
+
+
 footer .sns {
   margin-right: 0.5rem;
 }
@@ -77,4 +85,93 @@ footer .sns {
 .btn a {
   text-decoration: none;
   color: white;
+}
+.button{
+  width:100px;
+  padding:10px;
+  margin:40px auto 0px;
+  border-radius:5px;
+  color:white;
+  font-weight:bold;
+  text-align:center;
+  cursor:pointer;
+}
+
+.close{
+  background-color:red;
+}
+.modal1{
+  width:100%;
+  height:100vh;
+  position:fixed;
+  top:0;
+  left:0;
+  display:none;
+  z-index:10;
+}
+.modal2{
+  width:100%;
+  height:100vh;
+  position:fixed;
+  top:0;
+  left:0;
+  display:none;
+  z-index:10;
+}
+.modal3{
+  width:100%;
+  height:100vh;
+  position:fixed;
+  top:0;
+  left:0;
+  display:none;
+  z-index:10;
+}
+.modal4{
+  width:100%;
+  height:100vh;
+  position:fixed;
+  top:0;
+  left:0;
+  display:none;
+  z-index:10;
+}
+.modal5{
+  width:100%;
+  height:100vh;
+  position:fixed;
+  top:0;
+  left:0;
+  display:none;
+  z-index:10;
+}
+.modal6{
+  width:100%;
+  height:100vh;
+  position:fixed;
+  top:0;
+  left:0;
+  display:none;
+  z-index:10;
+}
+.modal_bg{
+  height:100%;
+  background-color:rgba(0,0,0,0.6);
+}
+.modal_window{
+  width: 75%;
+  height:70%;
+  border-radius:10px;
+  background-color:white;
+  position:absolute;
+  top: 50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  text-align:center;
+  /* overflow: scroll; */
+
+}
+.modal_window h3{
+  padding-top: 50px;
+  margin-bottom:450px;
 }
