@@ -175,3 +175,7 @@ footer .sns {
   padding-top: 50px;
   margin-bottom:450px;
 }
+
+.modal_wrapper{
+    display: grid;
+}
