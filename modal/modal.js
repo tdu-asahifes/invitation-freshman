@@ -53,4 +53,10 @@ $(function() {
      $(".modal_bg").click(function() {
           $(".modal6").fadeOut();    
      })
+     $(function(){
+          setTimeout(function(){
+               $(".col-lg-6").fadeIn(500);
+          },400);
+     });
+
 })

@@ -1,4 +1,31 @@
-<!-- Developed by Mikihiro Suzuki -->
+<!-- 
+　　　　　　　　　　　　　 　 　 　 　 ,====,===、
+　　　　　　　　　　　　　　　 　 　 _.||＿__|_____||＿_
+　　　　　　　　　　　　　　　 　∧_∧  ／||＿＿＿,|^l　　∧_∧
+　 　 　 　 　 　 　 　 　 　 (・ω・`)／／.||　　　|口| |ω・` )
+　　　　　　　　　　 　 　 ／(^(^ ／／.||...||　　　|口| |ｃ 　）
+　　　 　 　 　 　 　 ∧_∧ 　 ／／　 .||...||　　|口| ||し　　　　　　　開発者モードを
+　　　　　　　　　　(・ω・`)／／　　　.||...||　　　|口| ||　　　　　　　　　開いた新入生さん
+　　　　　 　 　 ／ (^(^ ／／ 　....　　.||...S　　　|口| ||　　　　　　　　　こんにちは！！
+　"" 　　　:::''　|／　 　|／　''　"　　:::　　⌒　 :: ⌒⌒⌒ ::　""　　`
+　::　,,　:::::　,,　;￣￣￣　　"、　:::: "　,, ,　:::　　 "　::　"　::::　　"
+
+システムデザイン工学部 情報システム工学科の鈴木です。
+他の人には内緒でこっそりコメントを忍ばせてみました(^_-)-☆
+普段はPythonしか弄らないのでガタガタなコードでお見苦しいですがこれでも1か月の成果です(^^;
+学祭のメインページ制作までにVue辺りでガチプロなページを作ろうと思っています。
+そこでWEBに強いお方を探しているのですが、いかがでしょう？
+このように招待するのもCicada3301みたいでかっこいいですね。
+ご連絡お待ちしております。
+
+旭祭実行委員会 広報局
+鈴木 幹大
+連絡先:20aj079@ms.dendai.ac.jp
+
+Developed by Mikihiro Suzuki ,Nanami Aihara
+-->
+
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -42,8 +69,8 @@
           <div class="navbar navbar-dark bg-enji shadow-sm">
             <div class="container">
               <a href="#" class="navbar-brand d-flex align-items-center">
-                <img src="image/asahi_logo.png"  width ="60" alt="">
-                <strong>東京電機大学 旭祭実行委員会</strong>
+                <img src="image/logo.png"  width ="60" alt="">
+                <img src="image/asahisai.png"  width ="360" alt="">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -53,13 +80,13 @@
       </header>
 
         <main>
-    
+          
           <section class="py-5 text-center container image-size">
             <div class="row py-lg-5">
               <div class="col-lg-6 col-md-8 mx-auto">
                 <h1 class="fw-light">新入生の皆さん</h1>
                 <h1 class="fw-light">合格おめでとうございます！</h1>
-                <p class="lead">私たちは旭祭実行委員会です。</br>東京電機大学の学園祭である「旭祭」を企画・運営をしています(仮)</p>
+                <p class="lead">私たちは旭祭実行委員会です。</br>東京電機大学の学園祭である「旭祭」を企画・運営をしています！</p>
               </div>
             </div>
           </section>
@@ -69,6 +96,7 @@
               <div class ="text-center section-heading">
                 <h2>各局の紹介</h2>
               </div>
+              <p></p>
               <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                 <div class="col">
                   <div class="card shadow-sm">
@@ -76,15 +104,7 @@
                     <div class="card-body">
                       <p class="card-text detail">委員長・副委員長</p>
                       <div class="d-grid gap-2">
-                            <button type="button" class="btn btn-block btn-info detail open1">詳細</button>
-                            <!-- モーダルの中は各局の幹部から詳細が来たら記述する -->
-                            <div class = "modal1">
-                              <div class = "modal_bg"></div>
-                              <div class = "modal_window">
-                                   <h3>委員長・副委員長</h3>
-                                   <div class = "button close">CLOSE</div>
-                              </div>
-                         </div>
+                        <a type="button" class="btn btn-block btn-info detail open1" href = "leaders.html">詳細</a>
                       </div>
                     </div>
                   </div>
@@ -95,14 +115,7 @@
                     <div class="card-body">
                       <p class="card-text detail">企画局</p>
                       <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-block btn-info detail open2">詳細</button>
-                        <div class = "modal2">
-                          <div class = "modal_bg"></div>
-                          <div class = "modal_window">
-                               <h3>企画局</h3>
-                               <div class = "button close">CLOSE</div>
-                          </div>
-                     </div>
+                        <a type="button" class="btn btn-block btn-info detail open2" href = "kikaku.html">詳細</a>
                   </div>
                     </div>
                   </div>
@@ -113,14 +126,7 @@
                     <div class="card-body">
                       <p class="card-text detail">渉外局</p>
                       <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-block btn-info detail open3">詳細</button>
-                        <div class = "modal3">
-                          <div class = "modal_bg"></div>
-                          <div class = "modal_window">
-                               <h3>渉外局</h3>
-                               <div class = "button close">CLOSE</div>
-                          </div>
-                     </div>
+                        <a type="button" class="btn btn-block btn-info detail open3" href = "shogai.html">詳細</a>
                   </div>
                     </div>
                   </div>
@@ -131,14 +137,7 @@
                     <div class="card-body">
                       <p class="card-text detail">総務局</p>
                       <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-block btn-info detail open4">詳細</button>
-                        <div class = "modal4">
-                          <div class = "modal_bg"></div>
-                          <div class = "modal_window">
-                               <h3>総務局</h3>
-                               <div class = "button close">CLOSE</div>
-                          </div>
-                     </div>
+                        <a type="button" class="btn btn-block btn-info detail open4" href = "soumu.html">詳細</a>
                   </div>
                     </div>
                   </div>
@@ -149,14 +148,7 @@
                     <div class="card-body">
                       <p class="card-text detail">広報局</p>
                       <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-block btn-info detail open5">詳細</button>
-                        <div class = "modal5">
-                          <div class = "modal_bg"></div>
-                          <div class = "modal_window">
-                               <h3>広報局</h3>
-                               <div class = "button close">CLOSE</div>
-                          </div>
-                     </div>
+                        <a type="button" class="btn btn-block btn-info detail open5" href = "koho.html">詳細</a>
                   </div>
                     </div>
                   </div>
@@ -167,14 +159,7 @@
                     <div class="card-body">
                       <p class="card-text detail">二部</p>
                       <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-block btn-info detail open6">詳細</button>
-                        <div class = "modal6">
-                          <div class = "modal_bg"></div>
-                          <div class = "modal_window">
-                               <h3>二部</h3>
-                               <div class = "button close">CLOSE</div>
-                          </div>
-                     </div>
+                        <a type="button" class="btn btn-block btn-info detail open6" href = "nibu.html">詳細</a>
                   </div>
                     </div>
                   </div>
@@ -185,14 +170,13 @@
           </div>
           
           <hr class="featurette-divider">
-          <h2 class ="text-center">イベント</h1>
           <div class="row featurette">
-            <div class="col-md-7">
-              <h2 class="featurette-heading">合宿１ <span class="text-muted">ほげほげー</span></h2>
-              <p class="lead">ほげほげー</p>
+            <div class="col-md-7 order-md-2">
+              <h3 class="featurette-heading">夏合宿</h3>
+              <p class="lead">ほげほげ</p>
             </div>
-            <div class="col-md-5">
-              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+            <div class="col-md-5 order-md-1">
+              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
       
             </div>
           </div>
@@ -201,17 +185,35 @@
       
           <div class="row featurette">
             <div class="col-md-7 order-md-2">
-              <h2 class="featurette-heading">合宿２ <span class="text-muted">ほげほげ</span></h2>
+              <h3 class="featurette-heading">冬合宿</h3>
               <p class="lead">ほげほげ</p>
             </div>
             <div class="col-md-5 order-md-1">
-              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
       
             </div>
           </div>
       
           <hr class="featurette-divider">
+          <div class="container">
 
+
+            <div class="row">
+              <div class ="text-center section-heading">
+                <h2>入会を希望する方へ</h2>
+              </div>
+              <div class="col-md-6">
+                <a href="" class="btn btn--orange btn-c"><i class="fa far fa-envelope"></i>2,3年生はこちら</a>
+              </div>
+              <div class="col-md-6">
+                <a href="" class="btn btn--orange btn-c"><i class="fa far fa-envelope"></i>新入生はこちら</a>
+              </div>
+            
+            </div>
+      
+        
+          </div> 
+          <hr class="featurette-divider">
         </main>
         
         
