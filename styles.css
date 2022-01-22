@@ -179,3 +179,68 @@ footer .sns {
 .modal_wrapper{
     display: grid;
 }
+
+a.btn--orange {
+  color: #fff;
+  background-color: #eb6100;
+}
+
+a.btn--orange:hover {
+  color: #fff;
+  background: #f56500;
+}
+
+a.btn-c {
+  font-size: 2rem;
+  position: relative;
+  padding: 1.5rem 3rem 1.5rem 2rem;
+}
+
+a.btn-c i.fa {
+  margin-right: 1rem;
+}
+
+h3 {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+h3:before {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  display: inline-block;
+  width: 60px;
+  height: 5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color:#b9022aec;
+  border-radius: 2px;
+}
+
+h2 {
+  position: relative;
+  display: inline-block;
+  padding: 0 65px;
+  text-align: center;
+}
+
+h2:before,
+h2:after {
+  position: absolute;
+  top: calc(50% - 3px);
+  width: 50px;
+  height: 6px;
+  content: '';
+  border-top: solid 2px #b9022aec;
+  border-bottom: solid 2px #b9022aec;
+}
+
+h2:before {
+  left: 0;
+}
+
+h2:after {
+  right: 0;
+}
