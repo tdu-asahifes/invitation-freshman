@@ -182,12 +182,12 @@ footer .sns {
 
 a.btn--orange {
   color: #fff;
-  background-color: #eb6100;
+  background-color: #b9022aec;
 }
 
 a.btn--orange:hover {
   color: #fff;
-  background: #f56500;
+  background: #b9022aec;
 }
 
 a.btn-c {
@@ -245,3 +245,6 @@ h2:after {
   right: 0;
 }
 
+.gasshuku {
+  font-size: 20px;
+}
